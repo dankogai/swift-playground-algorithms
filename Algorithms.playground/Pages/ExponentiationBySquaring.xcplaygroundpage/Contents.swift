@@ -9,7 +9,7 @@
 
 */
 
-//: naive, O(n)
+//: ## naive, O(n)
 func expNaively(base:Double, _ exponent:UInt)->Double {
     var result = 1.0
     for _ in 0..<exponent {
