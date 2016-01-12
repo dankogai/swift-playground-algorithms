@@ -58,6 +58,7 @@ let pow = hyperOf(1, *)
 pow(3, 3)
 
 extension String: HyperOperable {}
+
 let xstr = hyperOf(""){ $0 + $1 }
 xstr("x", 15)
 
